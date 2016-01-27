@@ -10,6 +10,6 @@
 pod 'AhaGesturePassword'
 ```
 
-* Demo
+## Demo
 
    ![](demo.gif)
