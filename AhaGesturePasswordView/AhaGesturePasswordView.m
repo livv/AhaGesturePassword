@@ -241,8 +241,6 @@ typedef NS_ENUM(NSInteger, AhaPointState) {
     CGPoint point = [oneTouch locationInView:self];
     _currentPoint = point;
     
-    NSLog(@"%@", NSStringFromCGPoint(_currentPoint));
-    
     for (AhaPoint *ahaPoint in self.points) {
         
         if ([self distanceFromPoint:_currentPoint toPoint:ahaPoint.center] < _radius) {
